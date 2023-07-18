@@ -31,6 +31,8 @@ img{
     background: cornflowerblue;
     min-height: 100dvh;
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav{
@@ -58,6 +60,20 @@ img{
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
+}
+
+.header__content{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.header__title{
+    font-size: 6vw;
+    color: #fff;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
 
 /* header */
